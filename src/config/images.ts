@@ -6,7 +6,7 @@ export const images = {
   products: {
     artcool: {
       black: "/images/rac-eu-lg-artcool-black.webp",
-      mirror: "/images/lg-artcool-mirror.webp",
+      mirror: "/images/rac-eu-lg-premium.webp",
       alt: "LG ARTCOOL airconditioner"
     },
     premium: {
@@ -14,7 +14,7 @@ export const images = {
       alt: "LG Premium airconditioner"
     },
     standard: {
-      plus: "/images/rac-eu-standard-plus-webp.webp", // Updated path
+      plus: "/images/rac-eu-standard-plus.webp",
       alt: "LG Standard Plus airconditioner"
     }
   }
