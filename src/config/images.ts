@@ -14,7 +14,7 @@ export const images = {
       alt: "LG Premium airconditioner"
     },
     standard: {
-      plus: "/images/rac-eu-standard-plus.webp",
+      plus: "/images/rac-eu-standard-plus-webp.webp", // Updated path
       alt: "LG Standard Plus airconditioner"
     }
   }
