@@ -23,7 +23,7 @@ export function EnergySavingsCalculator() {
     const efficiencies = {
       gas: 0.95,          // 95% efficiëntie voor moderne HR-ketel
       electric: 1.00,     // 100% voor elektrische verwarming
-      heatpump: 4.5,      // COP van 4.5 voor Daikin warmtepomp
+      heatpump: 4.5,      // COP van 4.5 voor LG warmtepomp
     };
 
     let currentCosts = 0;
@@ -55,7 +55,7 @@ export function EnergySavingsCalculator() {
     }
 
     const yearlySavings = Math.max(0, currentCosts - newCosts);
-    // Gemiddelde installatiekosten voor een Daikin warmtepomp
+    // Gemiddelde installatiekosten voor een LG warmtepomp
     const paybackPeriod = yearlySavings > 0 ? 2399 / yearlySavings : 0;
 
     setResult({
@@ -76,7 +76,7 @@ export function EnergySavingsCalculator() {
         <div className="flex gap-2">
           <Info className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
           <p className="text-sm text-gray-600">
-            Deze calculator geeft een indicatie van uw mogelijke besparing bij overstap naar een Daikin warmtepomp. 
+            Deze calculator geeft een indicatie van uw mogelijke besparing bij overstap naar een LG warmtepomp. 
             Voor een exacte berekening kunt u contact met ons opnemen.
           </p>
         </div>

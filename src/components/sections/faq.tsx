@@ -4,7 +4,7 @@ import { useState } from "react";
 const faqs = [
   {
     question: "Wat zijn de kosten van een airco installatie?",
-    answer: "De kosten van een airco installatie zijn afhankelijk van verschillende factoren zoals het type unit, de grootte van de ruimte en de complexiteit van de installatie. Onze prijzen beginnen vanaf €1.599,- voor een complete installatie inclusief montage. Neem contact met ons op voor een exacte prijsopgave op maat."
+    answer: "De kosten van een airco installatie zijn afhankelijk van verschillende factoren zoals het type unit, de grootte van de ruimte en de complexiteit van de installatie. Onze prijzen beginnen vanaf €1.499,- voor een complete installatie inclusief montage. Neem contact met ons op voor een exacte prijsopgave op maat."
   },
   {
     question: "Hoe lang duurt een airco installatie?",
@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: "Is een airco energiezuinig?",
-    answer: "Moderne Daikin airconditioners zijn zeer energiezuinig met energielabel A+++. Ze verbruiken gemiddeld 0,5-1 kWh per uur bij koelen. Door gebruik te maken van de ingebouwde timer en slimme functies kunt u het energieverbruik verder optimaliseren."
+    answer: "Moderne LG airconditioners zijn zeer energiezuinig met energielabel A+++. Ze verbruiken gemiddeld 0,5-1 kWh per uur bij koelen. Door gebruik te maken van de ingebouwde timer en slimme functies kunt u het energieverbruik verder optimaliseren."
   },
   {
     question: "Hoe vaak moet een airco onderhouden worden?",
@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     question: "Kan een airco ook verwarmen?",
-    answer: "Ja, alle Daikin airconditioners die wij installeren zijn warmtepompen die zowel kunnen koelen als verwarmen. In de verwarmingsstand zijn ze zeer efficiënt en kunnen ze tot wel 4-5 keer zoveel warmte produceren als de elektriciteit die ze verbruiken."
+    answer: "Ja, alle LG airconditioners die wij installeren zijn warmtepompen die zowel kunnen koelen als verwarmen. In de verwarmingsstand zijn ze zeer efficiënt en kunnen ze tot wel 4-5 keer zoveel warmte produceren als de elektriciteit die ze verbruiken."
   }
 ];
 

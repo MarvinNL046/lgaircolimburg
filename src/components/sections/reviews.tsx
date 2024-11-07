@@ -5,22 +5,22 @@ const reviews = [
     name: "Mark de Vries",
     location: "Maastricht",
     rating: 5,
-    text: "Zeer professionele installatie van onze Daikin Stylish. Het team werkte netjes en efficiënt. De airco werkt perfect en is inderdaad zo stil als beloofd.",
-    product: "Daikin Stylish"
+    text: "Zeer professionele installatie van onze LG ARTCOOL Black. Het team werkte netjes en efficiënt. De airco werkt perfect en is inderdaad zo stil als beloofd.",
+    product: "LG ARTCOOL Black"
   },
   {
     name: "Lisa Janssen",
     location: "Heerlen",
     rating: 5,
     text: "Uitstekend advies gekregen over de juiste capaciteit voor onze woonkamer. De installatie was binnen een dag geregeld en de airco bevalt uitstekend.",
-    product: "Daikin Emura"
+    product: "LG ARTCOOL Mirror"
   },
   {
     name: "Peter Bakker",
     location: "Roermond",
     rating: 5,
     text: "Al jaren een tevreden klant. Het onderhoud wordt altijd perfect uitgevoerd en bij vragen staat het team direct klaar. Echte vakmensen!",
-    product: "Daikin Perfera"
+    product: "LG Premium"
   }
 ];
 

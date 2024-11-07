@@ -1,21 +1,20 @@
 export const images = {
   hero: {
-    main: "/images/lg-artcool-gallery.webp",
-    alt: "LG ARTCOOL Gallery airconditioner in modern interieur"
+    main: "/images/rac-eu-lg-artcool-black.webp",
+    alt: "LG ARTCOOL airconditioner in modern interieur"
   },
   products: {
     artcool: {
-      gallery: "/images/lg-artcool-gallery.webp",
+      black: "/images/rac-eu-lg-artcool-black.webp",
       mirror: "/images/lg-artcool-mirror.webp",
       alt: "LG ARTCOOL airconditioner"
     },
-    dualcool: {
-      standard: "/images/lg-dualcool-standard.webp",
-      plus: "/images/lg-dualcool-plus.webp",
-      alt: "LG DUALCOOL airconditioner"
+    premium: {
+      standard: "/images/rac-eu-lg-premium.webp",
+      alt: "LG Premium airconditioner"
     },
     standard: {
-      plus: "/images/lg-standard-plus.webp",
+      plus: "/images/rac-eu-standard-plus.webp",
       alt: "LG Standard Plus airconditioner"
     }
   }
@@ -32,10 +31,10 @@ export type ProductImage = {
 
 export const productImages: ProductImage[] = [
   {
-    src: images.products.artcool.gallery,
-    alt: "LG ARTCOOL Gallery",
-    title: "LG ARTCOOL Gallery",
-    description: "Uniek design met verwisselbare frontpanelen",
+    src: images.products.artcool.black,
+    alt: "LG ARTCOOL Black",
+    title: "LG ARTCOOL Black",
+    description: "Stijlvol zwart design met geavanceerde functies",
     price: "Vanaf €2.299,-",
     highlight: "Meest stijlvolle model"
   },
@@ -47,18 +46,11 @@ export const productImages: ProductImage[] = [
     price: "Vanaf €2.099,-"
   },
   {
-    src: images.products.dualcool.plus,
-    alt: "LG DUALCOOL Plus",
-    title: "LG DUALCOOL Plus",
-    description: "Krachtige prestaties met dubbele inverter",
+    src: images.products.premium.standard,
+    alt: "LG Premium",
+    title: "LG Premium",
+    description: "Premium prestaties met maximaal comfort",
     price: "Vanaf €1.899,-"
-  },
-  {
-    src: images.products.dualcool.standard,
-    alt: "LG DUALCOOL Standard",
-    title: "LG DUALCOOL Standard",
-    description: "Betrouwbare basis met dubbele inverter",
-    price: "Vanaf €1.699,-"
   },
   {
     src: images.products.standard.plus,

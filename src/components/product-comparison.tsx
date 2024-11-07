@@ -1,7 +1,7 @@
 import { Check, Minus } from "lucide-react";
 
 const comparisonData = {
-  headers: ["Kenmerken", "Sensira", "Perfera", "Emura", "Stylish"],
+  headers: ["Kenmerken", "Standard Plus", "Premium", "ARTCOOL Mirror", "ARTCOOL Black"],
   features: [
     {
       name: "Energielabel koelen",
@@ -16,7 +16,7 @@ const comparisonData = {
       values: ["21dB", "19dB", "19dB", "19dB"]
     },
     {
-      name: "Flash Streamer luchtzuivering",
+      name: "Ionizer luchtzuivering",
       values: [false, true, true, true]
     },
     {
@@ -32,15 +32,15 @@ const comparisonData = {
       values: [false, true, true, true]
     },
     {
-      name: "Coanda luchtstroomeffect",
-      values: [false, false, false, true]
+      name: "Active Energy Control",
+      values: [false, false, true, true]
     },
     {
       name: "Verkrijgbaar in meerdere kleuren",
       values: [false, false, true, true]
     }
   ],
-  prices: ["Vanaf €1.599,-", "Vanaf €1.899,-", "Vanaf €2.199,-", "Vanaf €2.399,-"]
+  prices: ["Vanaf €1.499,-", "Vanaf €1.899,-", "Vanaf €2.099,-", "Vanaf €2.299,-"]
 };
 
 export function ProductComparison() {
