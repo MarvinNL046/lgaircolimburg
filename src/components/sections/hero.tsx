@@ -42,7 +42,7 @@ export function Hero() {
           <div className="relative mt-8 lg:mt-0">
             <div className="absolute inset-0 bg-gradient-to-br from-primary-light/20 to-primary/20 rounded-lg" />
             <img
-              src={images.products.artcool.gallery}
+              src={images.products.artcool.black}
               alt={images.products.artcool.alt}
               className="rounded-lg object-cover w-full h-[300px] sm:h-[400px] lg:h-full shadow-xl relative z-10"
             />
