@@ -1,7 +1,7 @@
 {
-  "name": "Daikin Airco Limburg",
-  "short_name": "Daikin Limburg",
-  "description": "Specialist in Daikin airconditioningsystemen in Limburg",
+  "name": "LG Airco Limburg",
+  "short_name": "LG Limburg",
+  "description": "Specialist in LG airconditioningsystemen in Limburg",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -14,7 +14,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#ffffff",
+  "theme_color": "#005efe",
   "background_color": "#ffffff",
   "display": "standalone",
   "start_url": "/",

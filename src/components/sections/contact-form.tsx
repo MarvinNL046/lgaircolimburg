@@ -3,9 +3,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { Loader2 } from "lucide-react";
-import { contactConfig } from "@/config/contact";
-import { emailConfig } from "@/config/email";
-import emailjs from "@emailjs/browser";
+import { sendEmail } from "@/utils/email";
 
 const formSchema = z.object({
   name: z.string().min(2, "Naam moet minimaal 2 karakters bevatten"),
@@ -35,19 +33,12 @@ export function ContactForm() {
     setSubmitError(null);
 
     try {
-      await emailjs.send(
-        emailConfig.serviceId,
-        emailConfig.templateId,
-        {
-          from_name: data.name,
-          from_email: data.email,
-          phone_number: data.phone,
-          message: data.message,
-          to_name: contactConfig.companyName,
-          reply_to: data.email,
-        },
-        emailConfig.publicKey
-      );
+      await sendEmail({
+        name: data.name,
+        email: data.email,
+        phone: data.phone,
+        message: data.message,
+      });
       
       setSubmitSuccess(true);
       reset();
