@@ -1,9 +1,10 @@
-import { Hero } from "@/components/sections/hero";
-import { Features } from "@/components/sections/features";
+import { Navbar } from "@/components/sections/navbar";
+import { HeroOptimized } from "@/components/sections/hero-optimized";
+import { ServicesOptimized } from "@/components/sections/services-optimized";
+import { WhyUs } from "@/components/sections/why-us";
+import { BrandLogos } from "@/components/sections/brand-logos";
 import { ContactForm } from "@/components/sections/contact-form";
-import { Benefits } from "@/components/sections/benefits";
 import { Reviews } from "@/components/sections/reviews";
-import { Timeline } from "@/components/sections/timeline";
 import { FAQ } from "@/components/sections/faq";
 import { Footer } from "@/components/sections/footer";
 import { JsonLd } from "@/components/json-ld";
@@ -14,11 +15,20 @@ export default function HomePage() {
     <>
       <JsonLd schema={organizationSchema} />
       <JsonLd schema={localBusinessSchema} />
+      <Navbar />
       <main>
-        <Hero />
-        <Features />
-        <Benefits />
-        <Timeline />
+        <section id="home">
+          <HeroOptimized />
+        </section>
+        <section id="diensten">
+          <ServicesOptimized />
+        </section>
+        <section id="waarom-ons">
+          <WhyUs />
+        </section>
+        <section id="merken">
+          <BrandLogos />
+        </section>
         <Reviews />
         <FAQ />
         <ContactForm />
